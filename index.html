@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Single Form Control in HTML</title>
+    <!-- link file stylesheet css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <form>
+        <h1>STUDENT INFORMATION FORM</h1>
+        <label>Enter Username:</label>
+        <input type="text" placeholder="please input your name" required><br><br>
+        <label>Enter Password:</label>
+        <input type="password" placeholder="please input your password" required> <br><br>
+        <label>Enter Email:</label>
+        <input type="email" placeholder="please input your email" required> <br><br>
+        <label>Enter Age:</label>
+        <input type="number" placeholder="please input your age" required><br><br>
+        <!-- radio button -->
+        <label>Gender:</label>
+        <label>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+        </label> <br><br>
+        <!-- checkbox -->
+         <label>Subject:</label>
+         <label><input type="checkbox" name="subject" checked value="WEB">WEB</lpabel>
+         <label><input type="checkbox" name="subject" value="C#">C#</label>
+         <label><input type="checkbox" name="subject" value="AC">AC</label>
+         <label><input type="checkbox" name="subject" value="GD">GD</label>
+         <label><input type="checkbox" name="subject" value="A+">A+</label>
+         <label><input type="checkbox" mame="subject" value="ENG">ENG</label>
+
+        <br><br><input type="submit" value="Log In">&nbsp;&nbsp;
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
